@@ -1,7 +1,8 @@
 import java.io.IOException;
 
 class QAP {
-    QAP(String file, int popSize, int howMuchGen, double Px, double Pm,int tour) throws IOException {
+
+    public void solve(String file, int popSize, int howMuchGen, double Px, double Pm,int tour) throws IOException {
         System.err.close();
         System.setErr(System.out);
 
